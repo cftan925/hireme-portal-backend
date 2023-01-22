@@ -90,10 +90,14 @@ DATABASES = {
           'sql_mode': 'traditional',
         },
         'NAME': 'hireme',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '3306',
+        # 'USER': 'root',
+        # 'PASSWORD': '12345',
+        'HOST': 'hcontainers-us-west-78.railway.app',
+        'PORT': '7894',
         'USER': 'root',
-        'PASSWORD': '12345',
+        'PASSWORD': 'p7JHTDVed7ZXmDVu9WOjU',
     }
 }
 
