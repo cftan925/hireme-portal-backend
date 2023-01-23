@@ -244,7 +244,9 @@ class ServiceListView(ListAPIView):
   @csrf_exempt 
   def post(self, request, *args, **kwargs):
     
-    user = User.objects.get(pk=request.data['userID'] )
+    # user = User.objects.get(pk=request.data['userID'] )
+    user_id = Token.objects.get(key=request.auth.key).user_id
+    user = User.objects.get(id=user_id)
     freelancer = Freelancer.objects.get(profile__user=user)
 
     serviceName = request.data['serviceName'] 
