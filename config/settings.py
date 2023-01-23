@@ -150,7 +150,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-  'http://localhost:3000'
+  'http://localhost:3000',
+  'https://hireme-backend.up.railway.app'
 ]
 
 
@@ -161,7 +162,8 @@ INTERNAL_IPS = [
   '127.0.0.1',
 ]
 
-API_URL='http://127.0.0.1:8000'
+# API_URL='http://127.0.0.1:8000'
+API_URL='https://hireme-backend.up.railway.app'
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_PERMISSION_CLASSES': [
