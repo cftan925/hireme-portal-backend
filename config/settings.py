@@ -94,10 +94,10 @@ DATABASES = {
         # 'PORT': '3306',
         # 'USER': 'root',
         # 'PASSWORD': '12345',
-        'HOST': 'hcontainers-us-west-78.railway.app',
+        'HOST': 'containers-us-west-78.railway.app',
         'PORT': '7894',
         'USER': 'root',
-        'PASSWORD': 'p7JHTDVed7ZXmDVu9WOjU',
+        'PASSWORD': '7JHTDVed7ZXmDVu9WOjU',
     }
 }
 
