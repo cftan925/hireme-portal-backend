@@ -152,7 +152,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
   'http://localhost:3000',
   'https://hireme-backend.up.railway.app',
-  'https://hireme-frontend.onrender.com'
+  'https://hireme-frontend.onrender.com',
+  'https://cerulean-chaja-59b487.netlify.app'
 ]
 
 
@@ -161,7 +162,8 @@ FILE_UPLOAD_PERMISSIONS=0o640
 
 INTERNAL_IPS = [
   '127.0.0.1',
-  'hireme-frontend.onrender.com'
+  'hireme-frontend.onrender.com',
+  'cerulean-chaja-59b487.netlify.app'
 ]
 
 # API_URL='http://127.0.0.1:8000'
